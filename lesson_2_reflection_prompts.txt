@@ -1,0 +1,40 @@
+What happens when you initialize a repository? Why do you need to do it? 
+
+Init a repository will begin tracking the changes to the files added to the working directory
+
+How is the staging area different from the working directory and the repository?
+What value do you think it offers?
+
+The staging area is where files get added before they are checked in or commit back to the repository
+
+How can you use the staging area to make sure you have one commit per logical
+change?
+
+By placing only one file in the staging area at a time, you can ensure to only add one file at a time
+
+What are some situations when branches would be helpful in keeping your history
+organized? How would branches help?
+
+Branches are helpful when you want to make adjustments, any time you start working on something new or different = “context switching”. Useful to keep master branch for public (solid production quality) -> development/experiemental/feature branch = working on and share with the public with the understanding that it may have errors. 
+-> useful for collaborating with yourself; context switching = compartmentalizing the work to switch to track down a bug or move onto another feature
+
+How do the diagrams help you visualize the branch structure?
+
+They show you who the parent of the latest file is, and the progression and break points of the file. 
+
+What is the result of merging two branches together? Why do we represent it in
+the diagram the way we do?
+
+Merging two branches together consolidates the code through combining the files into one uniform branch. It represents pulling an external feature into the master branch as a permanent feature. 
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges
+manually?
+
+Automatic Merging will show the updated code and give the user the choice of how to integrate the code or which one to keep. 
+
+// uses staging area to just commit the first thing, so you can continue working on the second or extra features. 
+// whenever you can “commit” something (a single unit of work) - commit that. so you can see what was added and maybe why it was added. Good to not have it jumbled up into other things. 
+
+
+
+
